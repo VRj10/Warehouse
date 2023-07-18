@@ -19,6 +19,10 @@
     src: url(Fonts/Inter/Inter-Regular.ttf);
 }
 
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+
 h4,
 h5,
 h6,
@@ -71,6 +75,17 @@ h1,
     height: 200px; /* Set the desired height for the images */
     width: 100%;
     object-fit: cover; /* Maintain aspect ratio and crop if needed */
+}
+
+.card-para{
+    color: black;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.card-heading{
+    font-size: 22px !important;
+    font-weight: 700 !important;
 }
 
 
@@ -145,14 +160,19 @@ h1,
     padding: 0 !important;
 }
 
+.navbar-brand{
+    padding-top: 0;
+    font-size: 25px;
+}
+
 
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
-    padding: 25px 0;
+    padding: 15px 0;
     color:grey;
     font-weight: 500;
     outline: none;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .navbar .navbar-nav .nav-link:hover,
